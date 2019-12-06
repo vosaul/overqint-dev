@@ -3,30 +3,30 @@ layout: page
 title: Publications
 sidebar_link: true
 ---
+
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
- 
+
  <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
  <font size="3">
 <div class="content">
   
   <article class="post-body">
  <div style="display: inline">
- <div style="display: inline" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nature.2014.14583" data-hide-no-mentions="true" class="altmetric-embed"></div>
+ <div style="display: inline" data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.ifacol.2015.12.077" data-hide-no-mentions="true" class="altmetric-embed"></div>
 J.M. Bauer, G. Bas, M.N. Durakbasa, P. Kopacek:
 "Development Trends in Automation and Metrology";
 Elsevier ScienceDirect IFAC-PapersOnLine, Volume 48 (2015), Issue 24; S. 168 - 172.
-  <span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-030-31343-2_6" data-style="small_rectangle"></span>
+  <span class="__dimensions_badge_embed__" data-doi="10.1016/j.ifacol.2015.12.077" data-style="small_rectangle"></span>
   </div>
 </article>
- 
 
 <article class="post-body">
   <div style="display: inline">
-  <div style="display: inline" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nature.2014.14583" data-hide-no-mentions="true" class="altmetric-embed"></div>
+  <div style="display: inline" data-badge-popover="right" data-badge-type="donut" data-doi="10.4028/www.scientific.net/KEM.686.92" data-hide-no-mentions="true" class="altmetric-embed"></div>
    G. Bas, M.N. Durakbasa, J.M. Bauer, G. Poszvek:
 "Characterization and Utilization of the Intelligent Decision Making Methodology to Improve Quality and Precision in the Machining Process";
   Key Engineering Materials, Precision Machining VIII (2016), Vol. 686; S. 87 - 92.
-  <span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-030-31343-2_6" data-style="small_rectangle"></span>
+  <span class="__dimensions_badge_embed__" data-doi="10.4028/www.scientific.net/KEM.686.92" data-style="small_rectangle"></span>
   </div>
 </article>
   
