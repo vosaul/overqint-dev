@@ -1,0 +1,80 @@
+---
+layout: page
+title: Publications
+sidebar_link: true
+---
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<font size="3">
+
+  <article class="post-body">
+    <div style="display: inline">
+      <div style="display: inline" data-badge-popover="right" data-badge-type="donut"
+        data-doi="10.1016/j.ifacol.2015.12.077" data-hide-no-mentions="true" class="altmetric-embed"></div>
+      <html>
+
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+
+          /_ Create three unequal columns that floats next to each other _/ .column {
+            float: left;
+            padding: 10px;
+            height: auto;/_ Should be removed. Only for demonstration _/
+          }
+
+          .left,
+          .right {
+            width: 15%;
+          }
+
+          .middle {
+            width: 70%;
+          }
+
+          /_ Clear floats after the columns _/ .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+        </style>
+
+      </head>
+
+      <body>
+        {% assign publications = site.data.publications %}
+        {% for item in publications %}
+        <div class="row">
+
+          <div class="column left" style="background-color:#fbfbfb;">
+            <p>
+              <div data-badge-popover="right" 
+                   data-badge-type="donut" 
+                   data-doi="{{item.dimensions_doi}}"
+                   class="altmetric-embed">
+              </div>
+            </p>
+          </div>
+
+          <div class="column middle" style="background-color:#fbfbfb;">
+            <p><b>Authors: </b>{{item.authors}}<br>
+              <strong>Title: {{item.title}}</strong><br>
+              <b>book: </b> {{item.book}}<br>
+              <b>published:</b> {{item.published}}
+              <br><span class="__dimensions_badge_embed__" 
+                        data-doi="{{item.dimensions_doi}}"
+                        data-style="small_rectangle"></span>
+            </p>
+          </div>
+          <div class="column right" style="background-color:#fbfbfb;">
+            <p>{{item.year}}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </body>
+      </html>
