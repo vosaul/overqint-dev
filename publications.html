@@ -3,50 +3,13 @@ layout: page
 title: Publications
 sidebar_link: true
 ---
-
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-
-<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-<font size="3">
-
   <article class="post-body">
     <div style="display: inline">
       <div style="display: inline" data-badge-popover="right" data-badge-type="donut"
-        data-doi="10.1016/j.ifacol.2015.12.077" data-hide-no-mentions="true" class="altmetric-embed"></div>
-      <html>
+        data-doi="10.1016/j.ifacol.2015.12.077" data-hide-no-mentions="true" class="altmetric-embed">
+      </div>
 
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-          * {
-            box-sizing: border-box;
-          }
 
-          /_ Create three unequal columns that floats next to each other _/ .column {
-            float: left;
-            padding: 10px;
-            height: auto;/_ Should be removed. Only for demonstration _/
-          }
-
-          .left,
-          .right {
-            width: 15%;
-          }
-
-          .middle {
-            width: 70%;
-          }
-
-          /_ Clear floats after the columns _/ .row:after {
-            content: "";
-            display: table;
-            clear: both;
-          }
-        </style>
-
-      </head>
-
-      <body>
         {% assign publications = site.data.publications %}
         {% for item in publications %}
         <div class="row">
@@ -76,5 +39,8 @@ sidebar_link: true
           </div>
         </div>
         {% endfor %}
-      </body>
-      </html>
+
+        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+        
+        <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+        

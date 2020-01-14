@@ -5,7 +5,7 @@
   published: '"Lecture Notes in Mechanical Engineering book series (LNME)", 1; M.N. Durakbasa, G. Gencyilmaz (Hrg.); 
   Springer Nature Switzerland AG, Cham, Switzerland, 2019; IBSN: 978-3-030-31343-2, S. 519 - 524'
   dimensions_doi: "10.1007/978-3-030-31343-2_45"
-  altmetric_doi:  "10.1007/978-3-319-92267-6_38"
+#  altmetric_doi:  "10.1007/978-3-319-92267-6_38"
   year: 2019
 
 - item:
@@ -14,7 +14,7 @@
   book: 'IOP Conference Series'
   published: 'Materials Science and Engineering (eingeladen), 1 (2018), 448 012045; S. 1 - 6.'
   dimensions_doi: "10.1007/978-3-319-92267-6_38"
-  altmetric_doi: "10.1016/j.ifacol.2018.11.245"
+#  altmetric_doi: "10.1016/j.ifacol.2018.11.245"
 
 - item:
   authors: 'M.N. Durakbasa, J.M. Bauer, G. Bas, L. Kräuter'
