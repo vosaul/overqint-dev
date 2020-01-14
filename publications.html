@@ -18,21 +18,25 @@ sidebar_link: true
             <p>
               <div data-badge-popover="right" 
                    data-badge-type="donut" 
-                   data-doi="{{item.dimensions_doi}}"
+                   data-doi="{{item.doi}}"
                    class="altmetric-embed">
               </div>
             </p>
           </div>
 
-          <div class="column middle" style="background-color:#fbfbfb;">
-            <p><b>Authors: </b>{{item.authors}}<br>
+          <div class="column middle"
+               style="background-color:#fbfbfb;">
+            <p>
+              <b>Authors: </b>{{item.authors}}<br>
               <strong>Title: {{item.title}}</strong><br>
               <b>book: </b> {{item.book}}<br>
               <b>published:</b> {{item.published}}
-              <br><span class="__dimensions_badge_embed__" 
-                        data-doi="{{item.dimensions_doi}}"
-                        data-style="small_rectangle"></span>
+              <a href="http://dx.doi.org/{{item.doi}}">http://dx.doi.org/{{item.doi}}</a>
             </p>
+            <span class="__dimensions_badge_embed__" 
+                  data-doi="{{item.doi}}"
+                  data-style="large_rectangle">
+            </span>
           </div>
           <div class="column right" style="background-color:#fbfbfb;">
             <p>{{item.year}}</p>
@@ -43,4 +47,5 @@ sidebar_link: true
         <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
         
         <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+        
         
