@@ -1,9 +1,16 @@
 * {
   box-sizing: border-box;
 }
-
-#sidebar {
+.content_block {
+  margin-left: $sidebar-width;
+}
+.sidebar_left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: $sidebar-width;
   font-size: 22px;
+  background: $sidebar-bg-color;
   .author {
     margin: 50px auto;
   }
