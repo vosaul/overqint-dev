@@ -2,19 +2,24 @@
   box-sizing: border-box;
 }
 
-#sidebar .author {
-  margin: 100px auto;
+#sidebar {
+  font-size: 22px;
+  .author {
+    margin: 50px auto;
+  }
+  .orcid {
+    margin: 10px 0;
+    width: 30px;
+  }
 }
-.orcid {
-  margin: 10px 0;
-  width: 30px;
-}
-
 .publication {
+  p {
+    font-size: 0.8rem;
+  }
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #aaa;
-  background-color:#fbfbfb;
+  background-color: #fbfbfb;
   height: max-content;
 }
 
@@ -39,12 +44,15 @@
   display: table;
   clear: both;
 }
-.post-body {
+.publication {
   .__dimensions_badge_embed__,
   .__dimensions_badge_embed__ a,
   .__dimensions_badge_embed__ a:hover,
   .__dimensions_badge_embed__ div {
     font-size: 24px;
+  }
+  .badge * {
+    margin-bottom: 5px;
   }
 }
 

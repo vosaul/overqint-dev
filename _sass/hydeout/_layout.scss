@@ -84,11 +84,6 @@ body {
   // Center sidebar content
   text-align: center;
 
-  // Bigger title
-  .site-title {
-    font-size: 3.25rem;
-  }
-
   // Show secondary nav content + lead
   header ~ *, p.lead {
     display: block;
@@ -157,9 +152,10 @@ body {
   .container {
     background: $body-bg;
     color: $body-color;
-    padding: $section-spacing * 2
-             $section-spacing * 2
-             0;
+    //padding: $section-spacing * 2
+    //         $section-spacing * 2
+    //         0;
+    padding: 3rem 10% 0;
     height: 100vh;
 
     > header {
@@ -175,7 +171,7 @@ body {
     }
 
     > * {
-      max-width: 38rem;
+     // max-width: 38rem;
       padding: 0;
     }
   }
