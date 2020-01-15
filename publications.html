@@ -9,7 +9,6 @@ sidebar_link: true
         data-doi="10.1016/j.ifacol.2015.12.077" data-hide-no-mentions="true" class="altmetric-embed">
       </div>
 
-
         {% assign publications = site.data.publications %}
         {% for item in publications %}
         <div class="row publication">
@@ -28,6 +27,7 @@ sidebar_link: true
               <strong>Title: {{item.title}}</strong><br>
               <b>book: </b> {{item.book}}<br>
               <b>published:</b> {{item.published}}
+              <br>
               <a href="http://dx.doi.org/{{item.doi}}">http://dx.doi.org/{{item.doi}}</a>
             </p>
             <span class="__dimensions_badge_embed__" 
