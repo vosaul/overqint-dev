@@ -1,5 +1,5 @@
 <aside id="sidebar">
-    <img src="{{site.baseurl}}/assets/images/profile.jpg" class="center">
+    <img src="{{'/assets/images/profile.jpg' | relative_url }}" class="center">
     <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ "/" | relative_url }}">
         {% unless page.url == "/" %}
