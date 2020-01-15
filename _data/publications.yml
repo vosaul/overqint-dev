@@ -22,8 +22,8 @@
   title: "Towards a sophisticated approach to cost oriented automation and intelligent metrology in the advanced manufacturing"
   book: 'Elsevier ScienceDirect IFAC-PapersOnLine'
   published: '1 (2018), 51-30; S. 54 - 59.'
-  doi: "10.1016/j.ifacol.2018.11.245" 
-  # altmetric-doi: "10.1007/978-3-319-92267-6_34"
+  doi: "10.1007/978-3-319-92267-6_34" 
+  # altmetric-doi: "10.1007/978-3-319-92267-6_34" #+
 
 - item:
   authors: 'G. Bas, W. Pirker, L. Kräuter, E. Güclü, L. Durakbasa'

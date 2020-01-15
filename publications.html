@@ -12,20 +12,17 @@ sidebar_link: true
 
         {% assign publications = site.data.publications %}
         {% for item in publications %}
-        <div class="row">
+        <div class="row publication">
 
-          <div class="column left" style="background-color:#fbfbfb;">
-            <p>
+          <div class="column left badge">
               <div data-badge-popover="right" 
                    data-badge-type="donut" 
                    data-doi="{{item.doi}}"
                    class="altmetric-embed">
               </div>
-            </p>
           </div>
 
-          <div class="column middle"
-               style="background-color:#fbfbfb;">
+          <div class="column middle">
             <p>
               <b>Authors: </b>{{item.authors}}<br>
               <strong>Title: {{item.title}}</strong><br>
@@ -38,7 +35,8 @@ sidebar_link: true
                   data-style="large_rectangle">
             </span>
           </div>
-          <div class="column right" style="background-color:#fbfbfb;">
+
+          <div class="column right">
             <p>{{item.year}}</p>
           </div>
         </div>
