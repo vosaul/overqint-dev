@@ -3,11 +3,6 @@ layout: page
 title: Publications
 sidebar_link: true
 ---
-  <article class="post-body">
-    <div style="display: inline">
-      <div style="display: inline" data-badge-popover="right" data-badge-type="donut"
-        data-doi="10.1016/j.ifacol.2015.12.077" data-hide-no-mentions="true" class="altmetric-embed">
-      </div>
 
         {% assign publications = site.data.publications %}
         {% for item in publications %}
@@ -17,7 +12,15 @@ sidebar_link: true
               <div data-badge-popover="right" 
                    data-badge-type="donut" 
                    data-doi="{{item.doi}}"
+                   data-hide-no-mentions="false"
                    class="altmetric-embed">
+              </div>
+              <span class="__dimensions_badge_embed__"
+                    data-doi="{{item.doi}}"
+                    data-style="large_rectangle">
+              </span>
+              <div class="column right">
+                <p>{{item.year}}</p>
               </div>
           </div>
 
@@ -30,14 +33,6 @@ sidebar_link: true
               <br>
               <a href="http://dx.doi.org/{{item.doi}}">http://dx.doi.org/{{item.doi}}</a>
             </p>
-            <span class="__dimensions_badge_embed__" 
-                  data-doi="{{item.doi}}"
-                  data-style="large_rectangle">
-            </span>
-          </div>
-
-          <div class="column right">
-            <p>{{item.year}}</p>
           </div>
         </div>
         {% endfor %}
