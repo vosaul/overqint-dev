@@ -33,7 +33,9 @@ sidebar_link: true
               <b>in: </b> {{item.in}}<br>
               {{item.published}}
               <br>
+            {% if item.doi %}
               <a href="http://dx.doi.org/{{item.doi}}">http://dx.doi.org/{{item.doi}}</a>
+            {% endif %}
             </p>
           </div>
         </div>
