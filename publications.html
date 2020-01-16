@@ -9,16 +9,18 @@ sidebar_link: true
         <div class="row publication">
 
           <div class="column left badge">
+            {% if item.doi %}
+              <span class="__dimensions_badge_embed__"   
+                    data-doi="{{item.doi}}"   
+                    data-style="large_rectangle">
+              </span>
               <div data-badge-popover="right" 
                    data-badge-type="donut" 
                    data-doi="{{item.doi}}"
                    data-hide-no-mentions="false"
                    class="altmetric-embed">
               </div>
-              <span class="__dimensions_badge_embed__"
-                    data-doi="{{item.doi}}"
-                    data-style="large_rectangle">
-              </span>
+              {% endif %}
               <div class="column right">
                 <p>{{item.year}}</p>
               </div>
@@ -26,10 +28,10 @@ sidebar_link: true
 
           <div class="column middle">
             <p>
-              <b>Authors: </b>{{item.authors}}<br>
-              <strong>Title: {{item.title}}</strong><br>
-              <b>book: </b> {{item.book}}<br>
-              <b>published:</b> {{item.published}}
+              Authors: <b>{{item.authors}}</b><br>
+              Title: <strong>{{item.title}}</strong><br>
+              <b>in: </b> {{item.in}}<br>
+              {{item.published}}
               <br>
               <a href="http://dx.doi.org/{{item.doi}}">http://dx.doi.org/{{item.doi}}</a>
             </p>

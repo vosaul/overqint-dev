@@ -58,9 +58,12 @@
   .__dimensions_badge_embed__ div {
     font-size: 24px;
   }
-  .badge * {
-    margin-bottom: 5px;
+  .badge {
+    text-align: left;
+  * {
+    margin-bottom: 4px;
   }
+}
 }
 
 #side_bar_licence_year {
