@@ -9,14 +9,20 @@
   top: 0;
   left: 0;
   width: $sidebar-width;
+  min-width: 280px;
   font-size: 22px;
   background: $sidebar-bg-color;
   .author {
     margin: 50px auto;
   }
-  .orcid {
-    margin: 10px 0;
-    width: 30px;
+  .page_link {
+    display: inline-block;
+
+    img {
+      margin: 10px 5px;
+      width: 30px;
+      height: 30px;
+    }
   }
 }
 .publication {
@@ -60,12 +66,45 @@
   }
   .badge {
     text-align: left;
-  * {
-    margin-bottom: 4px;
+    * {
+      margin-bottom: 4px;
+    }
   }
-}
 }
 
 #side_bar_licence_year {
   font-size: 0.5rem;
+}
+@media (max-width: 768px) {
+  .sidebar_left {
+    display: block;
+    position: relative;
+    width: 100%;
+    .u_email img,
+    .orcid {
+      margin: 4px auto;
+    }
+    * {
+      text-align: center;
+    }
+    nav {
+      display: none;
+    }
+  }
+  .content_block {
+    margin: 0 auto;
+  }
+  .home #sidebar {
+    .hidden_small {
+      display: none;
+    }
+    p.lead {
+      margin: 5px auto;
+    }
+    .site-title {
+      .back-arrow {
+        display: block;
+      }
+    }
+  }
 }
