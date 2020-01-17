@@ -4,45 +4,46 @@ title: Publications
 sidebar_link: true
 ---
 
-        {% assign publications = site.data.publications %}
-        {% for item in publications %}
-        <div class="row publication">
+{% assign publications = site.data.publications | sort: "year" | reverse %}
+{% assign years = publications | map: "year" | uniq %}
 
-          <div class="column left badge">
-            {% if item.doi %}
-              <span class="__dimensions_badge_embed__"   
-                    data-doi="{{item.doi}}"   
-                    data-style="large_rectangle">
-              </span>
-              <div data-badge-popover="right" 
-                   data-badge-type="donut" 
-                   data-doi="{{item.doi}}"
-                   data-hide-no-mentions="false"
-                   class="altmetric-embed">
-              </div>
-              {% endif %}
-              <div class="column right">
-                <p>{{item.year}}</p>
-              </div>
-          </div>
+{% for year in years %}
+<h3>{{year}}</h3>
+{% for item in publications %}
+{% if item.year != year %}
+{% continue %}
+{% else %}
+<div class="row publication">
 
-          <div class="column middle">
-            <p>
-              Authors: <b>{{item.authors}}</b><br>
-              Title: <strong>{{item.title}}</strong><br>
-              <b>in: </b> {{item.in}}<br>
-              {{item.published}}
-              <br>
-            {% if item.doi %}
-              <a href="http://dx.doi.org/{{item.doi}}">http://dx.doi.org/{{item.doi}}</a>
-            {% endif %}
-            </p>
-          </div>
-        </div>
-        {% endfor %}
+  <div class="middle col-12 col-lg-10 order-1 order-lg-2">
+    <p>
+      Authors: <b>{{item.authors}}</b><br>
+      Title: <strong>{{item.title}}</strong><br>
+      <b>in: </b> {{item.in}}<br>
+      {{item.published}}
+    </p>
+  </div>
+  <div class="left badge col-12 col-lg-2 order-2 order-lg-1 justify-content-lg-right">
+    {% if item.doi %}
+    <span class="__dimensions_badge_embed__" data-doi="{{item.doi}}" data-style="large_rectangle">
+    </span>
+    <div data-badge-popover="right" data-badge-type="1" data-doi="{{item.doi}}" data-hide-no-mentions="true"
+      class="altmetric-embed">
+    </div>
+    <a href="http://dx.doi.org/{{item.doi}}" class="doi_link">
+      <img src="{{'/assets/images/doi-s.png' | relative_url}}" alt="doi">
+    </a>
+    {% endif %}
+    <p">{{item.year}}</p>
+  </div>
 
-        <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-        
-        <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-        
-        
+</div>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+
