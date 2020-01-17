@@ -9,63 +9,164 @@
   top: 0;
   left: 0;
   width: $sidebar-width;
+  min-width: 280px;
   font-size: 22px;
   background: $sidebar-bg-color;
   .author {
     margin: 50px auto;
   }
-  .orcid {
-    margin: 10px 0;
-    width: 30px;
+  .page_link {
+    display: inline-block;
+
+    img {
+      margin: 10px 5px;
+      width: 30px;
+      height: 30px;
+    }
   }
 }
+
 .publication {
   p {
     font-size: 0.8rem;
+    margin-left: 20px;
   }
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px solid #aaa;
+  //border: 1px solid #aaa;
   background-color: #fbfbfb;
   height: max-content;
 }
 
 // Create three unequal columns that floats next to each other _/
-.column {
-  float: left;
-  padding: 10px;
-}
+//.column {
+//  float: left;
+//  padding: 10px;
+//}
 
 .left,
 .right {
-  width: 15%;
+  width: 120px;
+  flex-grow: 0.6;
 }
 
 .middle {
-  width: 70%;
+  width: 85%;
 }
 
 /// Clear floats after the columns _/
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+//.row:after {
+//  content: "";
+//  display: table;
+//  clear: both;
+//}
 .publication {
+  .altmetric-embed,
+  .altmetric-embed a,
   .__dimensions_badge_embed__,
   .__dimensions_badge_embed__ a,
   .__dimensions_badge_embed__ a:hover,
   .__dimensions_badge_embed__ div {
-    font-size: 24px;
+    font-size: 22px;
   }
   .badge {
     text-align: left;
-  * {
-    margin-bottom: 4px;
+    padding: 0;
+    * {
+      margin-bottom: 4px;
+    }
+    .doi_link {
+      display: block;
+      width: 110px;
+      height: 22px;
+      text-align: center;
+      background: #fcb326;
+      border-radius: 4px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+      img {
+        height: 20px;
+        margin: 0 auto;
+      }
+    }
   }
-}
 }
 
 #side_bar_licence_year {
   font-size: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+  .middle {
+    width: 70%;
+  }
+}
+@media (max-width: 991px) {
+  .publication {
+  p {
+    margin: 5px;
+  }
+}
+  .badge {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    * {
+      margin: 0 5px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .middle {
+    width: 100%;
+  }
+  .badge {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    * {
+      margin: 0 5px;
+    }
+  }
+  .content {
+    padding: 1rem;
+  }
+  .sidebar_left {
+    display: block;
+    position: relative;
+    width: 100%;
+    .author {
+      margin: 10px auto 20px;
+    }
+    .u_email img,
+    .orcid {
+      margin: 4px auto;
+    }
+    * {
+      text-align: center;
+    }
+    nav {
+      display: none;
+    }
+  }
+  .content_block {
+    margin: 0 auto;
+  }
+  .page #sidebar {
+    .hidden_small {
+      display: none;
+    }
+    p.lead {
+      margin: 5px auto;
+    }
+    .site-title {
+      .back-arrow svg {
+        height: 2em;
+      }
+    }
+  }
 }

@@ -1,23 +1,29 @@
 <aside id="sidebar" class="sidebar_left">
-    <img src="{{'/assets/images/profile.jpg' | relative_url }}" class="author">
-    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+  <img src="{{'/assets/images/profile.jpg' | relative_url }}" class="author">
+  <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
       <a href="{{ "/" | relative_url }}">
-        {% unless page.url == "/" %}
-          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
-        {% endunless %}
+        {% if page.url != site.baseurl %}
+        <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+        {% endif %}
         {{ site.title }}
       </a>
-    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
-    <p class="lead">{{ site.description }}</p>
+  </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+  <p class="lead">{{ site.description }}</p>
   {% include sidebar-nav-links.html %}
 
   {% if site.version %}
-    <span class="site-version">Currently v{{ site.version }}</span>
+  <span class="site-version hidden_small">Currently v{{ site.version }}</span>
   {% endif %}
-  <a href="{{site.orcid}}">
+ <div class="sidebar_icons./"> 
+  <a href="{{site.orcid}}" class="page_link hidden_small">
     <img src="{{'/assets/images/orcid.png' | relative_url}}" class="orcid" alt="orcid">
   </a>
-  <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+  <a class="page_link hidden_small" href="mailto:{{ site.email }}"><img src="{{'/assets/images/envelope.jpg' | relative_url}}" alt="u_email"  class="u_email"></a>
+</div>
   {% include sidebar-icon-links.html %}
-  {% include copyright.html %}
+
+  <p id="side_bar_licence_year" class="hidden_small">
+    &copy; {{ site.time | date: '%Y' }}.
+    <a href="{{ '/LICENSE' | relative_url }}">MIT License.</a>
+  </p>
 </aside>
