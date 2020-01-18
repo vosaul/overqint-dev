@@ -1,10 +1,35 @@
 - item:
+  authors: 'Frans Folkvord, Lutz Peschke, Gökҫen Baş, Simone Vitiello, Nathan Spunda'
+  title:   "Peer Learning Methodology for Sustainable Energy Usage"
+  in:    "2020-01 | book-chapter" 
+  published: 'Proceedings of the International Symposium for Production Research 2019, Lecture Notes in Mechanical Engineering book series (LNME) Part of ISBN: 978-3-030-31342-5'
+  doi: "10.1007/978-3-030-31343-2_6"
+  year: 2020
+
+- item:
+  authors: 'N. M. Durakbasa, P. Demircioglu, J. Bauer, I. Bogrekci, G. Bas, O. Bodur, G. Poszvek'
+  title:   "Additive miniaturized-manufactured gear parts validated by various measuring methods"
+  in:    "Conference paper" 
+  published: 'First Online: 04 May 2019
+Part of the Lecture Notes in Mechanical Engineering book series (LNME)'
+  doi: "10.1007/978-3-030-18177-2_25"
+  year: 2019
+
+- item:
   authors: 'ö. Sen, M.N. Durakbasa, G. Bas, G. Sen, O. Akcatepe'
   title:   "An Implementation of Cloud Based Simulation in Production"
   in:    "Proceedings of the International Symposium for Production Research 2019" 
   published: '"Lecture Notes in Mechanical Engineering book series (LNME)", 1; M.N. Durakbasa, G. Gencyilmaz (Hrg.); 
   Springer Nature Switzerland AG, Cham, Switzerland, 2019; IBSN: 978-3-030-31343-2, S. 519 - 524'
   doi: "10.1007/978-3-030-31343-2_45"
+  year: 2019
+  
+- item:
+  authors: 'G. Bas'
+  title: "From Nano- to Pico- to Femto-: Future Challenges for Cost-Oriented Manufacturing"
+  in: IFAC-PapersOnLine
+  published: "2019 | journal-article  Part of ISSN: 2405-8963"
+  doi: "10.1016/j.ifacol.2019.12.557"  
   year: 2019
 
 - item:
@@ -139,8 +164,9 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
 - item:
   authors: 'M.N. Durakbasa, G. Bas'
   title: "An Analysis Of The Metrology Techniques To Improve Quality And Accuracy"
-  published: 'Vortrag: XXIX. microCAD International Multidisciplinary Scientific Conference, Ungarn; 09.04.2015 - 10.04.2015;   
+  in: 'Vortrag: XXIX. microCAD International Multidisciplinary Scientific Conference, Ungarn; 09.04.2015 - 10.04.2015;   
   "MultiScience - XXIX. microCAD International Multidisciplinary Scientific Conference", ITTC Innovation and Technology Transfer Centre, University of Miskolc (2015), ISBN: 978-963-358-061-5; Paper-Nr. D1-1, 7 S.'
+  published: '2015 | book-chapter'
   doi: "10.26649/musci.2015.055" 
   year: 2015
 
@@ -173,12 +199,12 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
   published: '"Diemold 2015", M. Akkök, E. Budak, M. Firat, B. Kaftanoglu (Hrg.); Mechanical Design and Production Society (MATIM), (2015), Paper-Nr. MF 3 (DM 39), 8 S. EID: 2-s2.0-84951113884'
   year: 2015
 
-- item:
-  authors: 'K. Yaghmaei, G. Bas, M.N. Durakbasa'
-  title: "Computational Modeling Of Mechanical Properties Carbon Nanotubereinforced Hydroxyapatite Nanocomposite By Means Of Mechanical Nanometrology"
-  published: 'Vortrag: IMEKO XXI World Congress, Prague; 30.08.2015 - 04.09.2015;'   
-  in: '"XXI IMEKO World Congress - Full Papers", Issue 1 (2015), ISBN: 978-80-01-05793-3; 5 S. EID: 2-s2.0-84951113884'
-  year: 2015
+#- item:
+#  authors: 'K. Yaghmaei, G. Bas, M.N. Durakbasa'
+#  title: "Computational Modeling Of Mechanical Properties Carbon Nanotubereinforced Hydroxyapatite Nanocomposite By Means Of Mechanical Nanometrology"
+#  published: 'Vortrag: IMEKO XXI World Congress, Prague; 30.08.2015 - 04.09.2015;'   
+#  in: '"XXI IMEKO World Congress - Full Papers", Issue 1 (2015), ISBN: 978-80-01-05793-3; 5 S. EID: 2-s2.0-84951113884'
+#  year: 2015
 
 - item:
   authors: 'C. Davutoglu, M.N. Durakbasa, G. Bas, E. Güclü'
@@ -190,7 +216,7 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
 - item:
   authors: 'M.N. Durakbasa, G. Bas'
   title: "Key Metrology Roadmap in Advanced Manufacturing Technology of Micro-components and Nano-structures" 
-  published: 'International Journal of Mechanical Engineering and Automation, Volume 1 (2014), 6; S. 347 - 353.'
+  in: 'International Journal of Mechanical Engineering and Automation, Volume 1 (2014), 6; S. 347 - 353.'
   year: 2014
 
 - item:
@@ -216,7 +242,8 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
 - item:
   authors: 'M.N. Durakbasa, G. Bas, J.M. Bauer, L. Kräuter'
   title: "Development Of An Advanced Metrology And Intelligent Quality Management As A Strategic Approach In Manufacturing Industry"
-  in: '"11th IMEKO TC14 Symposium on Laser Metrology for Precision Measurement and Inspection in Industry", herausgegeben von: Curran Associates, Inc.; Curran Associates, Inc. e-media, Red Hook, NY 12571, 2014, ISBN: 978-1-63266-731-1, S. 223 - 226. EID: 2-s2.0-84907348625'
+  in: '11th IMEKO TC14 Symposium on Laser Metrology for Precision Measurement and Inspection in Industry, LMPMI 2014'
+  published: '2014 | conference-paper'
   year: 2014
 
 - item:
@@ -228,8 +255,8 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
 - item:
   authors: 'M.N. Durakbasa, J.M. Bauer, G. Bas'
   title: "A Sophisticated Approach to Advanced Production Engineering - Integrated Management for Sustainable Development"
-  in: 'Hauptvortrag: Proceedings of ICPR-AEM and QIEM 2014 Conference, Cluj-Napoca, Rumänien (eingeladen); 01.07.2014 - 05.07.2014;'
-  published: '"2014 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH - REGIONAL CONFERENCE AFRICA, EUROPE AND THE MIDDLE EAST and 3rd INTERNATIONAL CONFERENCE ON QUALITY AND INNOVATION IN ENGINEERING AND MANAGEMENT", Technical University of Cluj- Napoca (2014), ISBN: 978-973- 662-978-5; 5 S. Part of ISBN: 978-973-662-978-5'
+  published: 'Hauptvortrag: Proceedings of ICPR-AEM and QIEM 2014 Conference, Cluj-Napoca, Rumänien (eingeladen); 01.07.2014 - 05.07.2014;'
+  in: '"2014 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH - REGIONAL CONFERENCE AFRICA, EUROPE AND THE MIDDLE EAST and 3rd INTERNATIONAL CONFERENCE ON QUALITY AND INNOVATION IN ENGINEERING AND MANAGEMENT", Technical University of Cluj- Napoca (2014), ISBN: 978-973- 662-978-5; 5 S. Part of ISBN: 978-973-662-978-5'
   year: 2014
 
 - item:
@@ -257,7 +284,7 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
   in: 'Scientific Research Reports "Development in Machining Technology"", W. Zebala, I. Mankova (Hrg.);' 
   published: 'herausgegeben von: Cracow University of Technology; Development in Machining Technology, Krakow, Polen, 2013, ISBN: 978-83-7242-655-0, S. 62 - 81.'
   year: 2013
-
+######################################
 - item:
   authors: 'G. Bas, M.N. Durakbasa, I. Mankova, J. Beno'
   title: '"Application of Nanometrology for Assessing the Machining Tool Geometry and Analysis of the Micro/Nano Structure of the End Milling Tool Surfaces"
@@ -304,9 +331,8 @@ Part of ISBN: 978-963-358-018-9'
 - item:
   authors: 'M.N. Durakbasa, G. Bas, J.M. Bauer, L. Kräuter'
   title: "Development of an advanced metrology and intelligent quality management as a strategic approach in manufacturing industry"
-  published: 'Hauptvortrag: ISMQC - International Symposium on Measurement and Quality Control, Krakow-Kielce, Polen; 11.09.2013 - 13.09.2013;'   
-  in: '"Proceedings of the 11th International Symposium on Measurement and Quality Control", Osaka University, (2013), 4 S. 2013 | conference-paper
-EID: 2-s2.0-84907376010'
+  published: '11th IMEKO TC14 International Symposium on Measurement and Quality Control, ISMQC 2013'   
+  in: '2013 | conference-paper EID: 2-s2.0-84907376010'
   year: 2013
 
 - item:
@@ -335,17 +361,17 @@ EID: 2-s2.0-84905096920'
   published: 'Betreuer/in(nen), Begutachter/in(nen): M.N. Durakbasa, P. Kopacek, K. Matyas; Institut für Fertigungstechnik und Hochleistungslasertechnik, 2013; Rigorosum: 05/2013.'
   year: 2013
 
-- item:
-  authors: 'J.M. Bauer, M.N. Durakbasa, G. Bas'
-  title: "Multi Functional Intelligent Measurement Robot, As a Part of a Global Quality Management System for Collaboration Between Small, Medium and Large Scale Enterprises"
-  published: 'Quality-Access to Success, Vol.13, S5, November 2012 (2012), ISSN: 1582-2559; S. 67 - 72.'
-  year: 2012
+#- item:
+#  authors: 'J.M. Bauer, M.N. Durakbasa, G. Bas'
+#  title: "Multi Functional Intelligent Measurement Robot, As a Part of a Global Quality Management System for Collaboration Between Small, Medium and Large Scale Enterprises"
+#  published: 'Quality-Access to Success, Vol.13, S5, November 2012 (2012), ISSN: 1582-2559; S. 67 - 72.'
+#  year: 2012
 
-- item:
-  authors: 'M. Cakmakci, N. Ortabas-Demirel, M.N. Durakbasa, G. Bas, A. Hornikova'
-  title: "Interaction Between Capability Indices and Skewness of Non-Normal Processes Using Quantile Based Estimation and Johnson Transformation"
-  published: Quality-Access to Success, Vol. 13, S5, November 2012 (2012), S. 79 - 86.
-  year: 2013
+#- item:
+#  authors: 'M. Cakmakci, N. Ortabas-Demirel, M.N. Durakbasa, G. Bas, A. Hornikova'
+# title: "Interaction Between Capability Indices and Skewness of Non-Normal Processes Using Quantile Based Estimation and Johnson Transformation"
+#  published: 'Quality-Access to Success, Vol. 13, S5, November 2012 (2012), S. 79 - 86. EID: 2-s2.0-84870730395'
+#  year: 2013
 
 - item:
   authors: 'M.N. Durakbasa, J.M. Bauer, G. Bas, D. Riepl'
@@ -403,15 +429,13 @@ Part of ISBN: 978-83-63713-24-9'
   authors: 'G. Bas, P. Demircioglu, M.N. Durakbasa, P.H. Osanna'
   title: "A nanometrological management approach to assess the profile and the surface characteristics of the end milling tools by multi-measurement analysis"
   published: 'Vortrag: IMEKO XX World Congress International Measurement Confederation, Busan, Korea; 09.09.2012 - 14.09.2012;'   
-  in: '"Proceedings of XX IMEKO World Congress International Measurement Confederation", (2012)ISBN: 978-89-950000-5-2; 6 S. 2012 | conference-paper
-EID: 2-s2.0-84880401805'
+  in: '"Proceedings of XX IMEKO World Congress International Measurement Confederation", (2012)ISBN: 978-89-950000-5-2; 6 S. 2012 | conference-paper EID: 2-s2.0-84880401805'
   year: 2012
 
 - item:
   authors: 'M. Cakmakci, N. Ortabas-Demirel, M.N. Durakbasa, G. Bas, A. Hornikova'
   title: "Interaction Between Capability Indices and Skewness of Non-Normal Processes Using Quantile Based Estimation and Johnson Transformation"
-  published: 'Vortrag: QIEM 2nd International Conference on Quality and Innovation in Engineering and Management, Cluj- Napoca, RO; 22.11.2012 - 24.11.2012;   in: "Quality Access to Success - QIEM 2nd International Conference on Quality and Innovation in Engineering and Management", Quality-Access to Success, Vol.13, S5, November 2012 (2012), ISSN: 1582-2559; 8 S. 2012 | journal-article
-EID: 2-s2.0-84870730395'
+  published: 'Vortrag: QIEM 2nd International Conference on Quality and Innovation in Engineering and Management, Cluj- Napoca, RO; 22.11.2012 - 24.11.2012;   in: "Quality Access to Success - QIEM 2nd International Conference on Quality and Innovation in Engineering and Management", Quality-Access to Success, Vol.13, S5, November 2012 (2012), ISSN: 1582-2559; 8 S. 2012 | journal-article EID: 2-s2.0-84870730395'
   year: 2012
 
 - item:
@@ -453,23 +477,22 @@ EID: 2-s2.0-84870730395'
   in: '"IMEKO XX World Congress International Measurement Confederatio", (2012), ISBN: 978-89- 950000-5-2; 6 S.'
   year: 2012
 
-- item:
-  authors: 'J.M. Bauer, M.N. Durakbasa, G. Bas'
-  title: "Multi Functional Intelligent Measurement Robot, As a Part of a Global Quality Management System for Collaboration Between Small, Medium and Large Scale Enterprises"
-  published: 'Vortrag: QIEM 2nd International Conference on Quality and Innovation in Engineering and Management, Cluj- Napoca; 22.11.2012 - 24.11.2012.'
-  year: 2012
+#- item:
+#  authors: 'J.M. Bauer, M.N. Durakbasa, G. Bas'
+#  title: "Multi Functional Intelligent Measurement Robot, As a Part of a Global Quality Management System for Collaboration Between Small, Medium and Large Scale Enterprises"
+# published: 'Vortrag: QIEM 2nd International Conference on Quality and Innovation in Engineering and Management, Cluj- Napoca; 22.11.2012 - 24.11.2012.'
+#  year: 2012
 
-- item:
-  authors: 'M.N. Durakbasa, J.M. Bauer, G. Bas, D. Riepl'
-  title: "Telepresence and Teleoperation in Work Concept of Multifunctional Intelligent Factories: Experience of Telepresence in the Micro and Nano Metrology Laboratory AuM-TU-Wien"
-  published: "ortrag: QIEM 2nd International Conference on Quality and Innovation in Engineering and Management, Cluj- Napoca, RO; 22.11.2012 - 24.11.2012."
-  year: 2012
+#- item:
+#  authors: 'M.N. Durakbasa, J.M. Bauer, G. Bas, D. Riepl'
+#  title: "Telepresence and Teleoperation in Work Concept of Multifunctional Intelligent Factories: Experience of Telepresence in the Micro and Nano Metrology Laboratory AuM-TU-Wien"
+#  published: "ortrag: QIEM 2nd International Conference on Quality and Innovation in Engineering and Management, Cluj- Napoca, RO; 22.11.2012 - 24.11.2012."
+#  year: 2012
 
 - item:
   authors: 'M.N. Durakbasa, P.H. Osanna, G. Bas'
   title: "Intelligent Design and Advanced Metrology to Support and Improve Integrated Management Systems for Quality, Environment and Energy in Production Engineering"
-  published: 'Hauptvortrag: QIEM 2nd International Conference on Quality and Innovation in Engineering and Management, Cluj-Napoca, RO (eingeladen); 22.11.2012 - 24.11.2012. 2012 | journal-article
-EID: 2-s2.0-84870754372'
+  published: 'Hauptvortrag: QIEM 2nd International Conference on Quality and Innovation in Engineering and Management, Cluj-Napoca, RO (eingeladen); 22.11.2012 - 24.11.2012. 2012 | journal-article EID: 2-s2.0-84870754372'
   year: 2012
 
 - item:
@@ -479,14 +502,14 @@ EID: 2-s2.0-84870754372'
   published: 1 (2011), Volume 55 Number 2; S. 28 - 30.
   year: 2011
 
-- item:
-  authors: 'M.N. Durakbasa, G. Bas, P.H. Osanna, J.M. Bauer'
-  title: "Sustainable Management Systems of Quality, Energy and Environment in Industry / Sisteme durabile de management al calitãtii, energiei si mediului în industrie"
-  in: Quality - access to success
-  published: 'Anul 12 (2011), 4; S. 21 - 25. Quality - Access to Success
-2011 | journal-article
-EID: 2-s2.0-80051676379'
-  year: 2011
+#- item:
+#  authors: 'M.N. Durakbasa, G. Bas, P.H. Osanna, J.M. Bauer'
+#  title: "Sustainable Management Systems of Quality, Energy and Environment in Industry / Sisteme durabile de management al calitãtii, energiei si mediului în industrie"
+#  in: Quality - access to success
+#  published: 'Anul 12 (2011), 4; S. 21 - 25. Quality - Access to Success
+#2011 | journal-article
+#EID: 2-s2.0-80051676379'
+#  year: 2011
 
 - item:
   authors: 'M.N. Durakbasa, G. Bas'
@@ -504,7 +527,7 @@ EID: 2-s2.0-80051676379'
 
 - item:
   authors: 'M.N. Durakbasa, G. Bas, P.H. Osanna, J.M. Bauer'
-  title: "Sustainable Management Systems of Quality, Energy and Environment in Industry"
+  title: "Sustainable Management Systems of Quality, Energy and Environment in Industry"   #? Sisteme durabile de management al calitǎţii, energiei şi mediului în industrie 
   published: 'Vortrag: 1st International Conference Quality and Innovation in Engineering and Management, Cluj-Napoca, RO; 17.03.2011 - 19.03.2011;'   
   in: '"QIEM", U.T. Press, 1, Cluj - Napoca (2011), ISBN: 978-973-662-614-2; S. 67 - 70.'
   year: 2011
@@ -539,9 +562,23 @@ EID: 2-s2.0-80051676379'
 
 - item:
   authors: 'A. Hornikova, M.N. Durakbasa, E. Güclü, G. Bas'
-  title: "Data Mining - Novel Statistical Method"
+  title: "Data Mining - Novel Statistical Method"  #?
   published: 'Vortrag: 8th International Conference on Measurement, Smolenice, Slovakia; 27.04.2011 - 30.04.2011;'   
   in: '"Measurement 2011", VEDA, Bratislava, Slovakia (2011), ISBN: 978-80-969-672-4-7; S. 12 - 15.'
+  year: 2011
+
+- item:
+  authors: 'G. Bas'
+  title: "The Energy Efficiency and Performance Improvement by Implementing Energy Management Standards in The Supply Chain within the Integrated Management Systems"
+  published: '2011-04 | conference-paper'   
+  in: 'ELAEE 2011 Conference, 3rd Latin American Meeting on Energy Economics'
+  year: 2011
+
+- item:
+  authors: 'G. Bas'
+  title: "Data Mining - Novel Statistical Method for the Measurement Confirmation System"
+  published: '2011-04 | conference-paper'   
+  in: 'Measurement 2011, 8th International Conference on Measurement Part of ISBN: 978-80-969-672-4-7'
   year: 2011
 
 - item:
@@ -550,3 +587,10 @@ EID: 2-s2.0-80051676379'
   published: 'Vortrag: 16th World Productivity Congress and European Productivity Conference, Antalya, Türkei; 02.11.2010 - 05.11.2010;'   
   in: '"16th World Productivity Congress and European Productivity Conference", MPM National Productivity Centre of Türkiye - WCPS World Confederation of Productivity Science, (2010), 5 S.'
   year: 2010
+
+- item:
+  authors: 'M.N. Durakbasa, G. Bas, Z. Özkan'
+  title: "The Evaluation of the Renewable Energy Sources in Harmony with the European Directive 2001/77/EC in European Union and Turkey"
+  published: '2006-08 | conference-paper'   
+  in: '9th World Renewable Energy Congress 2006 - WREC. National Renewable Energy Laboratory - NREL'
+  year: 2006
