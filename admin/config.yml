@@ -23,17 +23,5 @@ collections:
     - { label: 'Publish Date', name: 'date', widget: 'datetime' }
     - { label: 'Body', name: 'body', widget: 'markdown' }
   folder: "_posts"
-- name: "pages"
-  label: "Pages"
-  slug: '{{slug}}'
-  create: true
-  fields:
-    - { label: 'categories', name: 'categories', widget: 'string', default: 'posts'}
-    - { label: 'image', name: 'image', widget: 'string', default: '', required: false}
-    - { label: 'description', name: 'description', widget: 'string', default: '...'}
-    - { label: 'Layout', name: 'layout', widget: 'string', default: 'page' }
-    - { label: 'Title', name: 'title', widget: 'string' }
-    - { label: 'Publish Date', name: 'date', widget: 'datetime', required: false}
-    - { label: 'Body', name: 'body', widget: 'markdown' }
-  folder: "/"
+
 
