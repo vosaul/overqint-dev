@@ -10,6 +10,10 @@ backend:
 media_folder: 'assets/img/uploads'
 public_folder: 'assets/img/uploads'
 collections:
+- name: "posts"
+  label: "Posts"
+  slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  create: true
   fields:
     - { label: 'categories', name: 'categories', widget: 'string', default: 'posts'}
     - { label: 'image', name: 'image', widget: 'string', default: ''}
