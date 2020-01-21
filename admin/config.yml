@@ -1,0 +1,35 @@
+# config.yml
+
+backend:
+#  name: git-gateway
+#  accept_roles: #optional - accepts all users if left out
+#    - admin
+#    - editor
+  name: github
+  repo: vosaul/overqint-dev # Path to your GitHub repository
+media_folder: 'assets/img/uploads'
+public_folder: 'assets/img/uploads'
+collections:
+  fields:
+    - { label: 'categories', name: 'categories', widget: 'string', default: 'posts'}
+    - { label: 'image', name: 'image', widget: 'string', default: ''}
+    - { label: 'description', name: 'description', widget: 'string', default: '...'}
+    - { label: 'Layout', name: 'layout', widget: 'string', default: 'post' }
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+    - { label: 'Body', name: 'body', widget: 'markdown' }
+  folder: "_posts"
+- name: "pagesn"
+  label: "Pages"
+  slug: '{{slug}}'
+  create: true
+  fields:
+    - { label: 'categories', name: 'categories', widget: 'string', default: 'posts'}
+    - { label: 'image', name: 'image', widget: 'string', default: '', required: false}
+    - { label: 'description', name: 'description', widget: 'string', default: '...'}
+    - { label: 'Layout', name: 'layout', widget: 'string', default: 'page' }
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Publish Date', name: 'date', widget: 'datetime', required: false}
+    - { label: 'Body', name: 'body', widget: 'markdown' }
+  folder: "/"
+
