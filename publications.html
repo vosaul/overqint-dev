@@ -4,7 +4,7 @@ title: Publications
 sidebar_link: true
 ---
 
-{% assign publications = site.data.publications | sort: "year" | reverse %}
+{% assign publications = site.data.publications.items | sort: "year" | reverse %}
 {% assign years = publications | map: "year" | uniq %}
 
 {% for year in years %}
