@@ -9,45 +9,47 @@ backend:
   repo: vosaul/overqint-dev # Path to your GitHub repository
 media_folder: 'assets/images'
 public_folder: 'assets/images'
+
 collections:
   - label: "Data files"
     name: "data"
     files:
+
       - name: "publications"
         label: "publications list"
         file: "_data/publications.yml"
         fields:
+          - label: "Publications"
+            name: "a_title"
+            widget: "list"
+            allow_add: true
+            fields:
+              
+            - label: "authors list"
+              name: "authors"
+              widget: "string"
+              default: ""
 
-        - label: "authors list"
-          name: "authors"
-          widget: "string"
-          default: ""
+              - label: "in"
+              name: 'in'
+              widget: 'string'
+              default: ""
+              
+            - label: 'published'
+              name: 'published'
+              widget: 'string'
+              default: ""
+              
+            - label: "doi"
+              name: 'doi'
+              widget: 'string'
+              required: false
+              default: ""
 
-        - label: "title"
-          name: 'title'
-          widget: 'string'
-          default: ""
-
-        - label: "in"
-          name: 'in'
-          widget: 'string'
-          default: ""
-
-        - label: 'published'
-          name: 'published'
-          widget: 'string'
-          default: ""
-
-        - label: "doi"
-          name: 'doi'
-          widget: 'string'
-          required: false
-          default: ""
-
-        - label: "year"
-          name: 'published'
-          widget: 'string'
-          default: ""
+            - label: "year"
+              name: 'year'
+              widget: 'string'
+              default: ""
   
   - name: "posts"
     label: "Posts"
