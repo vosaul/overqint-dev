@@ -20,7 +20,7 @@ collections:
         file: "_data/publications.yml"
         fields:
           - label: "Publications"
-            name: "a_title"
+            name: "items"
             widget: "list"
             allow_add: true
             fields:
