@@ -9,7 +9,7 @@ backend:
   repo: vosaul/overqint-dev # Path to your GitHub repository
 media_folder: 'assets/images'
 public_folder: 'assets/images'
-
+publish_mode: editorial_workflow
 collections:
   - label: "Data files"
     name: "data"
