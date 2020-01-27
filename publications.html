@@ -30,9 +30,11 @@ sidebar_link: true
     <div data-badge-popover="right" data-badge-type="1" data-doi="{{item.doi}}" data-hide-no-mentions="true"
       class="altmetric-embed">
     </div>
-    <a href="http://dx.doi.org/{{item.doi}}" class="doi_link">
+    <a href="http://dx.doi.org/{{item.doi}}" class="doi_link" target="blank">
       <img src="{{'/assets/images/doi-s.png' | relative_url}}" alt="doi">
     </a>
+    {% else %}
+    <a href="https://publik.tuwien.ac.at/publist.php?nojava=0&perstissid=70173&ext=1&lang= 1" class="myButton" target="blank">TU WIEN</a>
     {% endif %}
     <p">{{item.year}}</p>
   </div>

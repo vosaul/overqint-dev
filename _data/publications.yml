@@ -50,7 +50,7 @@ Part of the Lecture Notes in Mechanical Engineering book series (LNME)'
   year: 2018
   
 
-- a_title: "Developments in Biomedical Techniques Through Digital Transformation of Industry 4.0 - Applications in Tissue and Dental Implants"
+- a_title: "Developments in Biomedical Techniques Through Digital Transformation of Industry 4.0 – Applications in Tissue and Dental Implants"
   authors: 'G. Bas, W. Pirker, L. Kräuter, E. Güclü, L. Durakbasa'
   in: "Proceedings of the International Symposium for Production Research 2018"
   published: 'Springer, 2018, ISBN: 978-3- 319-92267-6, S. 391 - 401.'
@@ -66,7 +66,7 @@ Part of the Lecture Notes in Mechanical Engineering book series (LNME)'
   year: 2018
   
 
-- a_title: "Intelligent Integrated Management and Advanced Metrology for Quality Toward the Factory of the Future"
+- a_title: "Intelligent integrated management and advanced metrology for quality toward the factory of the future"
   authors: 'M.N. Durakbasa, J.M. Bauer, L. Kräuter, G. Bas, G. Poszvek'
   in: "Proceedings of 3rd International COnference on the Industry 4.0 Model for Advanced Manufacturing"
   published: 'Springer, 2018, ISBN: 978-3-319-89563-5, S. 98 - 108.'
@@ -90,7 +90,7 @@ Part of the Lecture Notes in Mechanical Engineering book series (LNME)'
   year: 2017
 
 
-- a_title: "Characterization and Utilization of the Intelligent Decision Making Methodology to Improve Quality and Precision in the Machining Process"
+- a_title: "Characterization and utilization of the intelligent decision making methodology to improve quality and precision in the machining process"
   authors: 'G. Bas, M.N. Durakbasa, J.M. Bauer, G. Poszvek'
   in: Key Engineering Materials
   published: "Precision Machining VIII (2016), Vol. 686; S. 87 - 92."
@@ -112,15 +112,14 @@ Part of the Lecture Notes in Mechanical Engineering book series (LNME)'
   year: 2016
 
 
-- a_title: 'Novel Developments In Advanced Manufacturing And Multi Functional Intelligent Factories (mfif) Towards Production In The Future - Challenges Of Autonomation In Industry 4.0";
-Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONFERENCE AFRICA, EUROPE AND THE MIDDLE EAST and 4th INTERNATIONAL CONFERENCE ON QUALITY AND INNOVATION IN ENGINEERING AND MANAGEMENT, Cluj Napoca, Rumänien (eingeladen); 25.07.2016 - 30.07.2016; '
+- a_title: 'Novel Developments In Advanced Manufacturing And Multi Functional Intelligent Factories (mfif) Towards Production In The Future - Challenges Of Autonomation In Industry 4.0'
   authors: 'M.N. Durakbasa, J.M. Bauer, L. Kräuter, G. Bas'
   in: "PROCEEDINGS Capturing Dynamics of Production Networks: Combining Agility, Innovation and Quality"
   published: 'D. Popescu et al. (Hrg.); Technical University Of Cluj-Napoca, 1 / Cluj-Napoca, Romania (2016), ISBN: 978-606-737- 180-2; S. 388 - 394.'
   year: 2016
 
 
-- a_title: "Assessment of the Production Quality in Machining by Integrating a System of High Precision Measurement"
+- a_title: "Assessment of the production quality in machining by integrating a system of high precision measurement"
   authors: 'G. Bas, L. Stoev, M.N. Durakbasa'
   published: 'Procedia Engineering, 100 (2015), S. 1616 - 1624.'
   doi: "10.1016/j.proeng.2015.01.535" 
@@ -149,9 +148,10 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
   year: 2015
 
 
-- a_title: "Ein intelligentes, vernetztes präzisionsmesstechnisches Konzept als strategischer Ansatz im Forschungs- und Industriebereich"
+- a_title: "A concept of smart and networked precision measurement technique as a strategic approach in research and industry,Ein intelligentes, vernetztes präzisionsmesstechnisches Konzept als strategischer Ansatz im Forschungs-und Industriebereich"
   authors: 'M.N. Durakbasa, G. Bas, J.M. Bauer, L. Kräuter'
-  published: TM - Technisches Messen, 82 (2015), Heft 1; S. 7 - 15.
+  in: TM - Technisches Messen
+  published: 2015 | journal-article
   doi: "10.1515/teme-2014-0019" 
   year: 2015
 
@@ -163,7 +163,7 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
   year: 2015
 
 
-- a_title: "An Analysis Of The Metrology Techniques To Improve Quality And Accuracy"
+- a_title: "An Analysis of the Metrology Techniques to Improve Quality and Accuracy"
   authors: 'M.N. Durakbasa, G. Bas'
   in: 'Vortrag: XXIX. microCAD International Multidisciplinary Scientific Conference, Ungarn; 09.04.2015 - 10.04.2015;   
   "MultiScience - XXIX. microCAD International Multidisciplinary Scientific Conference", ITTC Innovation and Technology Transfer Centre, University of Miskolc (2015), ISBN: 978-963-358-061-5; Paper-Nr. D1-1, 7 S.'
@@ -171,6 +171,12 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
   doi: "10.26649/musci.2015.055" 
   year: 2015
 
+- a_title: "An innovative approach of metrology for high precision and quality machining tool assessment in the integrated production engineering"
+  authors: 'Gokcen Bas, Numan M. Durakbasa, Ildiko Mankova, Marek Vrabelb'
+  in: 'Annals of DAAAM and Proceedings of the International DAAAM Symposium'
+  published: '2015 | conference-paper'
+  doi: "10.2507/26th.daaam.proceedings.110" 
+  year: 2015
 
 - a_title: "An Innovative Educational Concept of Teleworking in the High Precision Metrology Laboratory to Develop a Model of Implementation in the Advanced Manufacturing Industry"
   authors: 'M.N. Durakbasa, G. Bas, D. Riepl, J.M. Bauer'
@@ -178,7 +184,6 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
   in: '"IEEE Conference Publications", IEEE, (2015), ISBN: 978-1-4799-7838-0; Paper-Nr.'
   doi: "10.1109/REV.2015.7087288" 
   year: 2015
-
 
 - a_title: "Novel Trends In The Development Of Micro- And Nano- Manufacturing Based On Integrated Management Systems"
   authors: 'M.N. Durakbasa, J.M. Bauer, G. Bas, G. Poszvek'
@@ -200,12 +205,12 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
   published: '"Diemold 2015", M. Akkök, E. Budak, M. Firat, B. Kaftanoglu (Hrg.); Mechanical Design and Production Society (MATIM), (2015), Paper-Nr. MF 3 (DM 39), 8 S. EID: 2-s2.0-84951113884'
   year: 2015
 
-#
-#- a_title: "Computational Modeling Of Mechanical Properties Carbon Nanotubereinforced Hydroxyapatite Nanocomposite By Means Of Mechanical Nanometrology"
-#  authors: 'K. Yaghmaei, G. Bas, M.N. Durakbasa'
-#  published: 'Vortrag: IMEKO XXI World Congress, Prague; 30.08.2015 - 04.09.2015;'   
-#  in: '"XXI IMEKO World Congress - Full Papers", Issue 1 (2015), ISBN: 978-80-01-05793-3; 5 S. EID: 2-s2.0-84951113884'
-#  year: 2015
+
+- a_title: "Computational modeling of mechanical properties of carbon nanotube-reinforced hydroxyapatite nanocomposite by means of mechanical nanometrology"
+  authors: 'K. Yaghmaei, G. Bas, M.N. Durakbasa'
+  published: 'Vortrag: IMEKO XXI World Congress, Prague; 30.08.2015 - 04.09.2015;'   
+  in: '"XXI IMEKO World Congress - Full Papers", Issue 1 (2015), ISBN: 978-80-01-05793-3; 5 S. EID: 2-s2.0-84951113884'
+  year: 2015
 
 
 - a_title: "Improved Quality and Reliability in Telecommunication Network Testing by means of a Remote Online Test System"
@@ -241,11 +246,11 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
   year: 2014
 
 
-- a_title: "Development Of An Advanced Metrology And Intelligent Quality Management As A Strategic Approach In Manufacturing Industry"
-  authors: 'M.N. Durakbasa, G. Bas, J.M. Bauer, L. Kräuter'
-  in: '11th IMEKO TC14 Symposium on Laser Metrology for Precision Measurement and Inspection in Industry, LMPMI 2014'
-  published: '2014 | conference-paper'
-  year: 2014
+#- a_title: "Development Of An Advanced Metrology And Intelligent Quality Management As A Strategic Approach In Manufacturing Industry"
+#  authors: 'M.N. Durakbasa, G. Bas, J.M. Bauer, L. Kräuter'
+#  in: '11th IMEKO TC14 Symposium on Laser Metrology for Precision Measurement and Inspection in Industry, LMPMI 2014'
+#  published: '2014 | conference-paper'
+#  year: 2014
 
 
 - a_title: "An Innovative Technique for Succesful Clinical Dental Implementation by Means of Quality Control and Surface Characterization Analyse"
@@ -274,18 +279,11 @@ Hauptvortrag: 2016 INTERNATIONAL CONFERENCE ON PRODUCTION RESEARCH REGIONAL CONF
   year: 2014
 
 
-- a_title: "Intelligent Design and Advanced Metrology as Strategic Approaches to Efficiency and Quality Improvement in Smart Manufacturing"
-  authors: 'M.N. Durakbasa, G. Bas, J.M. Bauer, G. Poszvek'
-  in: International Journal of Advanced Quality, Vol.41 (2013), 1; S. 17 - 22.
-  year: 2013
-
-
 - a_title: "Outline Of Cutting Edge Preparation And Model Proposal For Nanometrological Process Management"
   authors: 'L. Kandrac, I. Mankova, M. Vrabel, J. Beno, M.N. Durakbasa, G. Bas'
   in: 'Scientific Research Reports "Development in Machining Technology"", W. Zebala, I. Mankova (Hrg.);' 
   published: 'herausgegeben von: Cracow University of Technology; Development in Machining Technology, Krakow, Polen, 2013, ISBN: 978-83-7242-655-0, S. 62 - 81.'
   year: 2013
-######################################
 
 - a_title: '"Application of Nanometrology for Assessing the Machining Tool Geometry and Analysis of the Micro/Nano Structure of the End Milling Tool Surfaces"
 Vortrag: 9th International Conference on Measurement, Smolenice, Slowakei; 27.05.2013 - 30.05.2013;'
@@ -300,14 +298,14 @@ Vortrag: 9th International Conference on Measurement, Smolenice, Slowakei; 27.05
   year: 2013
 
 
-- a_title: "INTACT - Intelligent Test Automation System to Achieve Improved Quality"
+- a_title: "INTACT-intelligent test automation system to achieve improved quality"
   authors: 'C. Davutoglu, C. Tepeköylü, E. Güclü, G. Bas'
   published: 'Vortrag: International Business Information Management Association Conference (IBIMA), Wien, Österreich; 27.06.2013 - 28.06.2013;   in: "Vision 2020: Innovation, Development Sustainability, and Economic Growth, Proceedings of the 21st International Business Information Management Association Conference (IBIMA)", (2013), ISBN: 978-0-9860419-0-7; Paper-Nr. 1481-1486, 6 S. 2013 | conference-paper
 EID: 2-s2.0-84905121929'
   year: 2013
 
 
-- a_title: "Assessment of cylinder liners using computer vision andnumerical thermal analyses"
+- a_title: "Assessment of cylinder liners using computer vision and numerical thermal analyses"
   authors: 'P. Demircioglu, I. Bogrekci, Y. Cerci, C. Deniz, G. Bas, M.N. Durakbasa'
   published: "Vortrag: ISMQC - International Symposium on Measurement and Quality Control, Krakow-Kielce, Polen; 11.09.2013 - 13.09.2013;"   
   in: '"Proceedings of he 11th International Symposium on Measurement and Quality Control", Osaka University, (2013). 2014 | conference-paper
@@ -339,7 +337,8 @@ Part of ISBN: 978-963-358-018-9'
 
 - a_title: "Intelligent Design and Advanced Metrology as Strategic Approaches to Efficiency and Quality Improvement in Smart Manufacturing"
   authors: 'M.N. Durakbasa, G. Bas, J.M. Bauer, G. Poszvek'
-  published: 'Hauptvortrag: Total Quality Management-Advanced and Intelligent Approaches (TQM) 2013, Belgrad, Serbien (eingeladen); 03.06.2013 - 07.06.2013;   in: "The 7th International Working Conference "Total Quality Management - Advanced and Intelligent Approaches"", (2013), ISBN: 978-86-7083-791-1; Paper-Nr. 17-22, 6 S.'
+  published: 'Hauptvortrag: Total Quality Management-Advanced and Intelligent Approaches (TQM) 2013, Belgrad, Serbien (eingeladen); 03.06.2013 - 07.06.2013;'
+  in: 'The 7th International Working Conference "Total Quality Management - Advanced and Intelligent Approaches", (2013), ISBN: 978-86-7083-791-1; Paper-Nr. 17-22, 6 S.'
   year: 2013
 
 
