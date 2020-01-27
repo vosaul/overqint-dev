@@ -7,21 +7,79 @@ backend:
 #    - editor
   name: github
   repo: vosaul/overqint-dev # Path to your GitHub repository
-media_folder: 'assets/img/uploads'
-public_folder: 'assets/img/uploads'
+media_folder: 'assets/images'
+public_folder: 'assets/images'
 collections:
-- name: "posts"
-  label: "Posts"
-  slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-  create: true
-  fields:
-    - { label: 'categories', name: 'categories', widget: 'string', default: 'posts'}
-    - { label: 'image', name: 'image', widget: 'string', default: ''}
-    - { label: 'description', name: 'description', widget: 'string', default: '...'}
-    - { label: 'Layout', name: 'layout', widget: 'string', default: 'post' }
-    - { label: 'Title', name: 'title', widget: 'string' }
-    - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-    - { label: 'Body', name: 'body', widget: 'markdown' }
-  folder: "_posts"
+  - label: "Data files"
+    name: "data"
+    files:
+      - name: "publications list"
+        label: "publications"
+        file: "_data/publications.yml"
+        fields:
 
+        - label: "authors list"
+          name: "authors"
+          widget: "string"
+          default: ""
 
+        - label: "title"
+          name: 'title'
+          widget: 'string'
+          default: ""
+
+        - label: "in"
+          name: 'in'
+          widget: 'string'
+          default: ""
+
+        - label: 'published'
+          name: 'published'
+          widget: 'string'
+          default: ""
+
+        - label: "doi"
+          name: 'doi'
+          widget: 'string'
+          required: false
+          default: ""
+
+        - label: "year"
+          name: 'published'
+          widget: 'string'
+          default: ""
+  
+  - name: "posts"
+    label: "Posts"
+    folder: "/_posts/"
+    create: true
+    media_folder: "/assets/"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: "image", name: "image", widget: "image", default: "/", required: false}
+      - { label: "description", name: "description", widget: "string", default: "", required: false}
+      - { label: "slug", name: "slug", widget: "string", required: false}
+      - { label: "Layout", name: "layout", widget: "string", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - { label: "Tags", name: "tags", widget: "string", required: false }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Allow comments", name: "comments", widget: "boolean", required: false, default: true }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "pages"
+    label: "Pages"
+    folder: "/pages/"
+    create: true
+    media_folder: "/assets/"
+    fields:
+      - { label: "image", name: "image", widget: "image", default: "/", required: false}
+      - { label: "description", name: "description", widget: "string", default: "", required: false}
+      - { label: "permalink", name: "permalink", widget: "string", default: "/", required: false}
+      - { label: "slug", name: "slug", widget: "string", required: false}
+      - { label: "Layout", name: "layout", widget: "string", default: "page" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - { label: "Allow comments", name: "comments", widget: "boolean", required: false, default: true }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+    slug: "{{slug}}"
