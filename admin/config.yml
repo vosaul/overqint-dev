@@ -24,13 +24,18 @@ collections:
             widget: "list"
             allow_add: true
             fields:
-              
-            - label: "authors list"
+
+            - label: "Title"
+              name: "a_title"
+              widget: "string"
+              default: ""
+
+            - label: "Authors list"
               name: "authors"
               widget: "string"
               default: ""
 
-              - label: "in"
+            - label: "in"
               name: 'in'
               widget: 'string'
               default: ""
