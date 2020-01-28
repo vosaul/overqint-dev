@@ -76,7 +76,7 @@ collections:
 
   - name: "pages"
     label: "Pages"
-    folder: "/pages/"
+    folder: "/"
     create: true
     media_folder: "/assets/"
     fields:
