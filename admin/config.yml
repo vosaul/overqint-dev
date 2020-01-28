@@ -6,7 +6,7 @@ backend:
 #    - admin
 #    - editor
   name: github
-  repo: vosaul/overqint-dev # Path to your GitHub repository
+  repo: overqint/overqint.github.io # Path to your GitHub repository
 media_folder: 'assets/images'
 public_folder: 'assets/images'
 publish_mode: editorial_workflow
